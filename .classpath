@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/sun/javadoc/|com/sun/mirror/|com/sun/mirror/apt/|com/sun/mirror/declaration/|com/sun/mirror/type/|com/sun/mirror/util/|com/sun/tools/apt/|com/sun/tools/apt/comp/|com/sun/tools/apt/main/|com/sun/tools/apt/mirror/|com/sun/tools/apt/mirror/apt/|com/sun/tools/apt/mirror/declaration/|com/sun/tools/apt/mirror/type/|com/sun/tools/apt/mirror/util/|com/sun/tools/apt/resources/|com/sun/tools/apt/util/|com/sun/tools/classfile/|com/sun/tools/doclets/|com/sun/tools/doclets/formats/html/|com/sun/tools/doclets/formats/html/markup/|com/sun/tools/doclets/formats/html/resources/|com/sun/tools/doclets/internal/toolkit/|com/sun/tools/doclets/internal/toolkit/builders/|com/sun/tools/doclets/internal/toolkit/resources/|com/sun/tools/doclets/internal/toolkit/taglets/|com/sun/tools/doclets/internal/toolkit/util/|com/sun/tools/doclets/internal/toolkit/util/links/|com/sun/tools/doclets/standard/|com/sun/tools/javadoc/|com/sun/tools/javadoc/resources/|com/sun/tools/javah/|com/sun/tools/javah/resources/|com/sun/tools/javap/|com/sun/tools/javap/resources/|com/sun/tools/javac/nio/" kind="src" path="src/share/classes"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<accessrules>
+			<accessrule kind="accessible" pattern="sun/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
