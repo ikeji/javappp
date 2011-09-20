@@ -671,14 +671,8 @@ public class JavaCompiler implements ClassReader.SourceCompleter {
           preProcessSet = new PreProcess[classNames.length];
           for (int i = 0, j = 0; i < classNames.length; i++) {
             try {
-              preProcessSet[j] =
-                  (PreProcess)
-                  ClassLoader
-                  .getSystemClassLoader()
-                  .loadClass(classNames[i])
+              preProcessSet[j] = (PreProcess) Class.forName(classNames[i])
                   .newInstance();
-//              preProcessSet[j] = (PreProcess) Class.forName(classNames[i])
-//                  .newInstance();
               j++;
             } catch (InstantiationException e) {
               // TODO Auto-generated catch block
